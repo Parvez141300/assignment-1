@@ -1,0 +1,221 @@
+/* Universal selectro  */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+/* shared colors  */
+.primary_color{
+    color: #0E0E0E;
+}
+
+/* navigation section  */
+
+nav{
+    margin: 30px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav_btn{
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #0E0E0E;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+/* banner styles  */
+
+.banner{
+    background-color: #C6E4D6;
+    border-radius: 25px;
+    margin: 0 160px;
+    width: 1215px;
+    height: 560px;
+}
+
+.banner_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+    padding: 0 60px;
+}
+.banner_subtitle{
+    color: #0e0e0e84;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.banner_title{
+    color: #0E0E0E;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.banner_btn{
+    color: white;
+    background-color: #006A50;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Pillar styles  */
+
+.pillars{
+    margin: 0 160px;
+    width: 1215px;
+}
+.pillars_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 230px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+}
+.box_title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.box_description{
+    font-size: 16px;
+    color: #006A50;
+}
+
+/* vision styles */
+
+.vision{
+    margin: 0 160px;
+    width: 1215px;
+    margin-bottom: 30px;
+}
+.vision_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.vision_description{
+    font-size: 16px;
+    color: #006A50;
+    margin-bottom: 30px;
+}
+.vision_boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vision_box_1{
+    width: 330px;
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    border-radius: 15px;
+}
+.vision_box_2{
+    width: 330px;
+    background-color: #C6E4D6;
+    padding: 30px;
+    border-radius: 15px;
+}
+.vision_box_3{
+    width: 330px;
+    background-color: #F7EBCF;
+    padding: 30px;
+    border-radius: 15px;
+}
+.vision_box_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vision_box_description{
+    font-size: 15px;
+    color: #006A50;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.vision_box_2 .vision_box_description{
+    margin-bottom: 40px;
+}
+.vision_box_btn_1{
+    background-color: #5490F5;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.vision_box_btn_2{
+    background-color: #09A15C;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+.vision_box_btn_3{
+    background-color: #FFC239;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* blockquotation styles */
+
+.blockquotation{
+    margin: 0 160px;
+    width: 1215px;
+    margin-bottom: 80px;
+    padding: 50px 25px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+    background-color: white;
+}
+
+.blockquotation img{
+    position: absolute;
+    margin-top: -30px;
+}
+.blockquotation_description{
+    font-size: 15px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.blockquotation_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.blockquotation_subtitle{
+    font-size: 15px;
+    color: rgba(14, 14, 14, 0.6);
+}
