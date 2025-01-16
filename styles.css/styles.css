@@ -620,6 +620,8 @@ hr{
         padding: 0 10px;
     }
     .vision_boxes{
+        margin: 0 auto;
+        width: 100%;
         flex-direction: column;
         gap: 10px;
     }
@@ -683,6 +685,9 @@ hr{
     }
     .news_boxes_3{
         flex-direction: column;
+    }
+    .news_box img{
+        width: 100%;
     }
     /* news end  */
 
