@@ -625,6 +625,9 @@ hr{
         flex-direction: column;
         gap: 10px;
     }
+    .vision_box_1, .vision_box_2, .vision_box_3{
+        width: 80%;
+    }
     /* vision end  */
 
     /* blockquotation start  */
@@ -686,8 +689,11 @@ hr{
     .news_boxes_3{
         flex-direction: column;
     }
+    .news_box{
+        text-align: center;
+    }
     .news_box img{
-        width: 100%;
+        width: 80%;
     }
     /* news end  */
 
