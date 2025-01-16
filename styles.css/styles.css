@@ -712,7 +712,13 @@ hr{
         padding: 0 20px;
     }
     .donate_money_boxes{
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .donate_money_box{
+        font-size: 30px;
+        width: 20%;
     }
     .donate_form input[type='number']{
         width: 70%;
